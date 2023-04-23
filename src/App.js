@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
@@ -43,7 +44,7 @@ function App() {
         </Routes>
       </div>
     </Router>
-  );
-}
-
-export default App;
+  )
+  }
+  
+  export default App;
